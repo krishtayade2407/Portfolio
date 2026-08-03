@@ -1,4 +1,3 @@
-/* Using a clean blue and white theme */
 :root {
   --bg-color: #eef2f5;
   --card-bg: #ffffff;
@@ -21,7 +20,6 @@ body {
   line-height: 1.6;
 }
 
-/* Header: Changed to a simple centered column layout with a solid color */
 .header {
   display: flex;
   flex-direction: column;
@@ -33,7 +31,6 @@ body {
   border-bottom: 5px solid var(--hover-blue);
 }
 
-/* Image: Square with rounded corners instead of a perfect circle */
 .immg {
   width: 80px;       /* Made this smaller */
   height: 80px;      /* Made this smaller to match */
@@ -47,7 +44,6 @@ body {
   margin-bottom: 5px;
 }
 
-/* Navbar: Styled like buttons instead of plain text */
 .navbar {
   display: flex;
   justify-content: center;
@@ -74,14 +70,12 @@ body {
   color: white;
 }
 
-/* Main Content */
 .main {
   max-width: 900px;
   margin: 30px auto;
   padding: 0 20px;
 }
 
-/* Sections: Making each section a big white card */
 .section {
   background-color: var(--card-bg);
   padding: 30px;
@@ -97,14 +91,12 @@ body {
   margin-bottom: 20px;
 }
 
-/* Grid: Using Flexbox instead of CSS Grid for a simpler approach */
 .grid {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
 }
 
-/* List/Cards: Using a left-border accent instead of a full box border */
 .list {
   flex: 1 1 calc(50% - 20px); /* Takes up half the row minus the gap */
   background-color: var(--bg-color);
@@ -128,7 +120,6 @@ body {
   flex: 1 1 100%; /* Forces this item to take the whole row */
 }
 
-/* Links */
 .links {
   margin-top: 15px;
 }
@@ -155,7 +146,6 @@ body {
   color: var(--primary-blue);
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   /* On smaller screens, make all flex items take up 100% of the width */
   .list {
